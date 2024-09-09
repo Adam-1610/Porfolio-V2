@@ -31,6 +31,7 @@ li {
     height: 45vh;
     border: 1px solid white;
     align-items: center;
+    margin-bottom: 3em;
 }
 
 .in-container {
@@ -60,3 +61,68 @@ li {
 .btn-light {
     background: black;
 }
+
+/* Utility */
+
+.main-head {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    margin-bottom: 3em;
+}
+
+/* Banner-1 */
+
+/* Components */
+.banner-container {
+    display: flex;
+    height: 40vh;
+    justify-content: center !important;
+    border: 1px solid white;
+}
+
+    
+.banner {
+    display: flex;
+    width: 100vw;
+    padding: 17.25px;
+    gap:20px;
+    justify-content: space-between;
+}
+
+.item1 {
+    display: flex;
+    width:25%;
+    border: 1px solid white;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    margin-bottom: 3rem !important; 
+}
+
+.item2 {
+    display: flex;
+    width:25%;
+    border: 1px solid white;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    margin-bottom: 3rem !important; 
+}
+
+.item3 {
+    display: flex;
+    width:25%;
+    border: 1px solid white;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    margin-bottom: 3rem !important; 
+}
+
+.item4 {
+    display: flex;
+    width:25%;
+    border: 1px solid white;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    margin-bottom: 3rem !important; 
+}
+
