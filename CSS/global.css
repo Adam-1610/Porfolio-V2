@@ -1,0 +1,20 @@
+/* Navbar */
+li {
+    list-style-type: none;
+    text-align: center;
+    font-size: small;
+}
+/* Components */
+.nav-container {
+    display: flex;
+    border: 1px solid white;
+    padding: 10px;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    border: 1px solid white;
+    padding: 5px;
+    gap: 20px;
+}
