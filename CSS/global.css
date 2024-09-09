@@ -1,10 +1,6 @@
 /* Navbar */
-li {
-    list-style-type: none;
-    text-align: center;
-    font-size: small;
-}
 /* Components */
+
 .nav-container {
     display: flex;
     border: 1px solid white;
@@ -14,7 +10,53 @@ li {
 
 .navbar {
     display: flex;
-    border: 1px solid white;
     padding: 5px;
     gap: 20px;
+}
+
+/* Utility */
+
+li {
+    list-style-type: none;
+    text-align: center;
+    font-size: large;
+}
+
+/* Hero */
+
+/* Components */
+
+.hero-container {
+    display: flex;
+    height: 45vh;
+    border: 1px solid white;
+    align-items: center;
+}
+
+.in-container {
+    display: flex;
+    width: 100%;
+    padding-right: 17.5px;
+    padding-left: 17.5px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -17.5px;
+    margin-left: -17.5px;
+}
+
+.col-xl-8, .col-lg-9 {
+    position: relative;
+    width: 100%;
+    padding-right: 17.5px;
+    padding: 17.5px;
+}
+
+.btn-light {
+    background: black;
 }
