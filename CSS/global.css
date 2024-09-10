@@ -135,3 +135,33 @@ li {
     border: 1px solid white;
     margin-bottom: 3em;
 }
+
+/* Banner-2 */
+
+/* Components */
+
+.banner-container-2 {
+    display: flex;
+    height: 35vh;
+    align-content: center;
+    border: 1px solid white;
+    margin-bottom: 3rem;
+}
+
+.in-container-2 {
+    display: flex;
+    width: 100%;
+    padding-right: 17.5px;
+    padding-left: 17.5px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -17.5px;
+    margin-left: -17.5px;
+    align-items: center;
+}
