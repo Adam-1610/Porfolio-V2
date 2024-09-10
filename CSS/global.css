@@ -79,6 +79,7 @@ li {
     height: 40vh;
     justify-content: center !important;
     border: 1px solid white;
+    margin-bottom: 3rem;
 }
 
     
@@ -126,3 +127,11 @@ li {
     margin-bottom: 3rem !important; 
 }
 
+/* Utility */
+
+.cta-head {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    margin-bottom: 3em;
+}
