@@ -1,5 +1,32 @@
-.art-container {
+/* Components */
+
+main {
     display: flex;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.wrapper {
+    margin: 125px auto;
+    width: 70%;
+}
+
+img {
+    max-width: 520px;
+    float: left;
     border: 1px solid white;
-    height: 50vh;
+    border-radius: 10px;
+    margin: 17.5px;
+}
+
+/* Utility */
+
+.text-box h2 {
+    font-size: 42px;
+}
+
+.text-box p {
+    margin-top: -20px;
+    font-size: 16px;
+
 }
