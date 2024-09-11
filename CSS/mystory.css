@@ -1,0 +1,31 @@
+/* Components */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.wrapper {
+    margin-right: 20px;
+}
+
+img {
+    max-width: 320px;
+    float: left;
+    border-radius: 10px;
+    margin: 17.5px;
+    filter: grayscale(65%);
+}
+
+/* Utility */
+
+.text-box h2 {
+    font-size: 42px;
+}
+
+.text-box p {
+    margin-top: -20px;
+    font-size: 16px;
+}
