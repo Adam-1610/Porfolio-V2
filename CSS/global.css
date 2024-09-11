@@ -39,11 +39,11 @@ li {
     background-image: url(/Images/Hero.jpg);
     background-size: cover;
     background-position-x: 50%;
-    filter: grayscale(35%);
+    filter: grayscale(65%);
     display: flex;
-    height: 45vh;
+    height: 50vh;
     align-items: center;
-    margin-bottom: 3em;
+    margin-bottom: 3em !important;
 }
 
 .in-container {
@@ -79,7 +79,8 @@ li {
 .main-head {
     display: flex;
     justify-content: center;
-    margin-bottom: 3em;
+    margin-bottom: 3em !important;
+    border: 1px solid white;
 }
 
 /* Banner-1 */
@@ -90,14 +91,14 @@ li {
     height: 40vh;
     justify-content: center !important;
     border: 1px solid white;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem !important;
 }
 
     
 .banner {
     display: flex;
     width: 100vw;
-    padding: 17.25px;
+    padding: 10px;
     gap:20px;
     justify-content: space-between;
 }
@@ -105,10 +106,11 @@ li {
 .item1 {
     display: flex;
     width:25%;
-    border: 1px solid white;
-    padding-left: 17.5px;
-    padding-right: 17.5px;
+    background-color:white;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 3rem !important; 
+    justify-content: center;
 }
 
 .item2 {
@@ -140,10 +142,32 @@ li {
 
 /* Utility */
 
+.wrapper-2 {
+    width: 70%;
+}
+
+
+
+img {
+    border: 1px solid black;
+    margin-top: 10px;
+    max-height: 75%;
+    width: 100%;
+}
+
+.text-box-2 h2  {
+font-size: large;
+text-align: center;
+color: black;
+}
+
+
+
 .cta-head {
     display: flex;
     justify-content: center;
-    margin-bottom: 3em;
+    margin-bottom: 3em !important;
+    border: 1px solid white;
 }
 
 /* Banner-2 */
@@ -151,11 +175,15 @@ li {
 /* Components */
 
 .banner-container-2 {
+    background-image: url(/Images/Cta.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    filter: grayscale(65%);
     display: flex;
-    height: 35vh;
+    height: 50vh;
     align-content: center;
-    border: 1px solid white;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem !important;
 }
 
 .in-container-2 {
@@ -185,7 +213,7 @@ li {
 .footer-container {
     display: flex;
     height: 5vh;
-    border: 1px solid white;
+    border-top: 1px solid white;
     align-items: center;
 }
 
