@@ -111,7 +111,6 @@ li {
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
-    background-color:black;
     filter: grayscale(65%);
     padding-left: 10px;
     padding-right: 10px;
@@ -126,7 +125,6 @@ li {
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
-    background-color: black;
     filter: grayscale(65%);
     padding-left: 17.5px;
     padding-right: 17.5px;
@@ -141,7 +139,6 @@ li {
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
-    background-color: black;
     filter: grayscale(65%);
     padding-left: 17.5px;
     padding-right: 17.5px;
@@ -156,7 +153,6 @@ li {
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
-    background-color: black;
     filter: grayscale(65%);
     padding-left: 17.5px;
     padding-right: 17.5px;
