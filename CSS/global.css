@@ -90,7 +90,8 @@ li {
     display: flex;
     height: 40vh;
     justify-content: center !important;
-    background-color: white;
+    background-color: black;
+    border: 1px solid white;
     margin-bottom: 3rem !important;
 }
 
@@ -106,7 +107,12 @@ li {
 .item1 {
     display: flex;
     width:25%;
+    background-image: url(/Images/Me.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
     background-color:black;
+    filter: grayscale(65%);
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 3rem !important; 
@@ -116,7 +122,12 @@ li {
 .item2 {
     display: flex;
     width:25%;
+    background-image: url(/Images/Projects.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
     background-color: black;
+    filter: grayscale(65%);
     padding-left: 17.5px;
     padding-right: 17.5px;
     margin-bottom: 3rem !important; 
@@ -126,7 +137,12 @@ li {
 .item3 {
     display: flex;
     width:25%;
+    background-image: url(/Images/Certifivations.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
     background-color: black;
+    filter: grayscale(65%);
     padding-left: 17.5px;
     padding-right: 17.5px;
     margin-bottom: 3rem !important; 
@@ -136,7 +152,12 @@ li {
 .item4 {
     display: flex;
     width:25%;
+    background-image: url(/Images/Cta.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
     background-color: black;
+    filter: grayscale(65%);
     padding-left: 17.5px;
     padding-right: 17.5px;
     margin-bottom: 3rem !important; 
@@ -149,19 +170,11 @@ li {
     width: 70%;
 }
 
-
-
-img {
-    border: 1px solid black;
-    margin-top: 10px;
-    max-height: 75%;
-    width: 100%;
-}
-
 .text-box-2 h2  {
 font-size: large;
 text-align: center;
 color: white;
+margin-top: 115%;
 }
 
 
